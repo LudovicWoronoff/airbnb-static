@@ -10,9 +10,8 @@
     <% end %>
   </ul>
 
-  <h3>
-    <%= link_to "mailto:contact@airbnb.com", do%>
-      <i class="fa fa-envelope">contact@airbnb.com</i>
-    <% end %>
-  </h3>
+  <% link_to 'mailto:contact@airbnb.com' do %>
+    <span><i class='fa fa-envelope-o'></i> envoyer un email </span>
+  <% end %>
+
 </div>
